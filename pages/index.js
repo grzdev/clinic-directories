@@ -1,4 +1,4 @@
-import {Box, Center, Container, Heading, Image, Text, SimpleGrid, ButtonGroup} from '@chakra-ui/react'
+import {Box, Center, Container, Heading, Image, Text, SimpleGrid} from '@chakra-ui/react'
 import {StarIcon} from '@chakra-ui/icons' 
 import { TriangleDownIcon } from '@chakra-ui/icons'
 
