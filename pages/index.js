@@ -8,7 +8,7 @@ export default function Home() {
     <Container maxW='container.xl' bg='#F4FAFF' mt='30px' borderRadius='20px'>
       <Center>
         <Box marginTop='30px'>
-          <Image src='http://swiftmedispark.com/img/medispark-logo.png'/>
+          <Image src='http://swiftmedispark.com/img/medispark-logo.png' alt=''/>
           <Heading marginLeft='60px' fontSize='25px' fontFamily='Sans-serif' color='#197AB8'>CLINICS</Heading>
         </Box>
       </Center>
@@ -17,7 +17,7 @@ export default function Home() {
           <SimpleGrid minChildWidth='450px' spacing={2}>
 
             <Box maxW='xl' h='140px' bg='#197AB8' marginTop='40px' borderRadius='20px' display='flex' >
-              <Image src='https://www.havanaspecialisthospital.com/media/img/logo_xy.png' maxW='8rem'/>
+              <Image src='https://www.havanaspecialisthospital.com/media/img/logo_xy.png' maxW='8rem' alt=''/>
               <Box display='flex' flexDirection='column'>
                 <Box display='flex'>
                   <Heading fontSize='2xl' color='white' marginTop='20px' marginLeft='25px'>Havana specialist hospital </Heading>
@@ -39,7 +39,7 @@ export default function Home() {
             </Box>
 
             <Box maxW='xl' h='140px' bg='#197AB8' marginTop='40px' borderRadius='20px' display='flex' >
-              <Image src='https://www.parklandespecialists.com/wp-content/uploads/2019/04/PS-Updated-logo.png' maxW='8rem'/>
+              <Image src='https://www.parklandespecialists.com/wp-content/uploads/2019/04/PS-Updated-logo.png' alt='' maxW='8rem'/>
               <Box display='flex' flexDirection='column'>
                 <Box display='flex'>
                   <Heading fontSize='2xl' color='white' marginTop='20px' marginLeft='25px'>Parkland Specialist Hospital</Heading>
@@ -61,7 +61,7 @@ export default function Home() {
             </Box>
 
             <Box maxW='xl' h='140px' bg='#197AB8' marginTop='40px' borderRadius='20px' display='flex' >
-              <Image src='https://reddingtonhospital.com/wp-content/uploads/2020/02/REDDINGTON-LOGO-FOR-WEBSITE-1-1-300x110-1.png' maxW='8rem'/>
+              <Image alt='' src='https://reddingtonhospital.com/wp-content/uploads/2020/02/REDDINGTON-LOGO-FOR-WEBSITE-1-1-300x110-1.png' maxW='8rem'/>
               <Box display='flex' flexDirection='column'>
                 <Box display='flex'>
                   <Heading fontSize='2xl' color='white' marginTop='20px' marginLeft='25px'>Reddington Hospital</Heading>
@@ -83,7 +83,7 @@ export default function Home() {
             </Box>
 
             <Box maxW='xl' h='140px' bg='#197AB8' marginTop='40px' borderRadius='20px' display='flex' >
-              <Image src='https://www.euracarehealth.com/wp-content/uploads/2020/06/euracare-2.png' maxW='8rem'/>
+              <Image src='https://www.euracarehealth.com/wp-content/uploads/2020/06/euracare-2.png' alt='' maxW='8rem'/>
               <Box display='flex' flexDirection='column'>
                 <Box display='flex'>
                   <Heading fontSize='2xl' color='white' marginTop='20px' marginLeft='25px'>Euracare Multi-Specialist Hospital</Heading>
@@ -105,7 +105,7 @@ export default function Home() {
             </Box>
 
             <Box maxW='xl' h='140px' bg='#197AB8' marginTop='40px' borderRadius='20px' display='flex' >
-              <Image src='https://www.lifefortchildrenshospital.com/images/logo-identity.png' maxW='8rem'/>
+              <Image src='https://www.lifefortchildrenshospital.com/images/logo-identity.png' alt='' maxW='8rem'/>
               <Box display='flex' flexDirection='column'>
                 <Box display='flex'>
                   <Heading fontSize='2xl' color='white' marginTop='20px' marginLeft='25px'>Lifefort Children's Hospital</Heading>
@@ -127,7 +127,7 @@ export default function Home() {
             </Box>
 
             <Box maxW='xl' h='140px' bg='#197AB8' marginTop='40px' borderRadius='20px' display='flex' >
-              <Image src='https://www.ettaatlantic.com/wp-content/uploads/2018/12/Etta-Atlantic-Memorial-Hospital-logo.png' maxW='8rem'/>
+              <Image alt='' src='https://www.ettaatlantic.com/wp-content/uploads/2018/12/Etta-Atlantic-Memorial-Hospital-logo.png' maxW='8rem'/>
               <Box display='flex' flexDirection='column'>
                 <Box display='flex'>
                   <Heading fontSize='2xl' color='white' marginTop='20px' marginLeft='25px'>Etta-Atlantic Memorial Hospital Ikate Lekki Lagos</Heading>
