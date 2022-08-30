@@ -108,7 +108,7 @@ export default function Home() {
               <Image src='https://www.lifefortchildrenshospital.com/images/logo-identity.png' alt="Lifefort Children's Hospital" maxW='8rem' p="10px"/>
               <Box display='flex' flexDirection='column'>
                 <Box display='flex'>
-                  <Heading fontSize='2xl' color='white' marginTop='20px' marginLeft='25px'>Lifefort Children's Hospital</Heading>
+                  <Heading fontSize='2xl' color='white' marginTop='20px' marginLeft='25px'>Lifefort Childrens Hospital</Heading>
                 </Box>
                 <Box display='flex' alignItems='center' mt='5px' ml='27px'>
                   <Text color='white'>4.0</Text>
