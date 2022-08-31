@@ -62,4 +62,4 @@ const hospitalCardDataa = {
     }
 ]}
 
-export default hospitalCardDataa;
+export default hospitalCardDataa();
