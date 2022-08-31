@@ -32,12 +32,12 @@ export default [
     {
         id: 4,
         img: "https://www.euracarehealth.com/wp-content/uploads/2020/06/euracare-2.png",
-        name: "Euracare Multi-Specialist Hospital",
+        name: "Euracare Hospital",
         stats: {
             rating: 4.9,
             reviewCount: 73
         },
-        address: "293 Jide Oki St, Victoria Island 106104, Lagos"
+        address: "293 Jide Oki St, Victoria Island, Lagos"
     },
     {
         id: 5,
@@ -52,11 +52,11 @@ export default [
     {
         id: 6,
         img: "https://www.ettaatlantic.com/wp-content/uploads/2018/12/Etta-Atlantic-Memorial-Hospital-logo.png",
-        name: "Etta-Atlantic Memorial Hospital",
+        name: "Etta-Atlantic Hospital",
         stats: {
             rating: 4.0,
             reviewCount: 37
         },
-        address: "2 Abioro St, Ikate 106104, Lekki, Lagos"
+        address: "2 Abioro St, Ikate, Lekki, Lagos"
     }
 ]
