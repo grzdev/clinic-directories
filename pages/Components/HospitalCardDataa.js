@@ -1,4 +1,4 @@
-export default HosiptalCardDataa [
+export default HosiptalCardDataa = [
     {
         id: 1,
         img: "https://www.havanaspecialisthospital.com/media/img/logo_xy.png",
