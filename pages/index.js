@@ -2,7 +2,7 @@ import {Box, Center, Container, Divider, Heading, Image, SimpleGrid} from '@chak
 
 
 import HospitalCard from './Components/HospitalCard'
-import HospitalCardDataa from './Components/HospitalCardDataa'
+import HospitalCardDataa from './HospitalCardDataa'
 
 
 export default function Home() {
