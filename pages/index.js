@@ -2,16 +2,18 @@ import {Box, Center, Container, Divider, Heading, Image, SimpleGrid} from '@chak
 
 
 import HospitalCard from './Components/HospitalCard'
-import HospitalCardDataa from './HospitalCardDataa'
+import hospitalCardDataa from './Components/hospitalCardDataa'
 
 
 export default function Home() {
 
-    const hospitalCards = HospitalCardDataa.map(card=>{
-      return <HospitalCard
-              key={card.id}
-              {...card}
-      />
+    const hospitalCards = hospitalCardDataa.map(card=>{
+      return(
+        <HospitalCard
+        key={card.id}
+        {...card}
+        />
+      )
     })
   
   return (

@@ -1,4 +1,4 @@
-const HospitalCardDataa = {
+const hospitalCardDataa = {
     "hospitals":[
     {
         id: 1,
@@ -61,4 +61,5 @@ const HospitalCardDataa = {
         address: "2 Abioro St, Ikate 106104, Lekki, Lagos"
     }
 ]}
- export default HospitalCardDataa
+
+export default hospitalCardDataa;
