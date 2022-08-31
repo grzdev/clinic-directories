@@ -1,4 +1,4 @@
-import {Box, Heading, Image, Text, } from '@chakra-ui/react'
+import {Box, Heading, Image, Text, Divider } from '@chakra-ui/react'
 import {StarIcon, TriangleDownIcon, InfoOutlineIcon } from '@chakra-ui/icons'
 import Link from 'next/link' 
 
@@ -31,6 +31,7 @@ export default function HavannaCard(){
                   </Link>
                 </Box>
               </Box>
+              
             </Box>
     )
 }

@@ -20,7 +20,7 @@ export default function Home() {
 
         <Container maxW='container.xl'>
           <SimpleGrid minChildWidth='450px' spacing={2}>
-          {/* <Divider orientation='horizontal' color='black'/> */}
+
             <HavannaCard/>
             <ParklandCard/>
             <ReddingtonCard/>
