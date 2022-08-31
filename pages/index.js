@@ -1,15 +1,22 @@
 import {Box, Center, Container, Divider, Heading, Image, SimpleGrid} from '@chakra-ui/react'
 
-import HavannaCard from './Hospitals/Havanna/HavannaCard'
-import ParklandCard from './Hospitals/Parkland/ParklandCard'
-import ReddingtonCard from './Hospitals/Reddignton/ReddigntonCard'
-import EuracareCard from './Hospitals/Euracare/EuracareCard'
-import LifefortCard from './Hospitals/Lifefort/LifefortCard'
-import EttaAtlanticCard from './Hospitals/EttaAtlantic/EttaAtlanticCard'
+
+import Hospitalcard from './Components/Hospitalcard'
+import hospitalCardData from './Components/HospitalCardData'
+
 
 export default function Home() {
+
+    const hospitalCards = hospitalCardData.map(card=>{
+      return <Hospitalcard
+              key={card.id}
+              {...card}
+      />
+    })
   
   return (
+    /*MAP HERE*/ 
+
     <Container maxW='container.xl' bg='#F4FAFF' mt='30px' borderRadius='20px'>
       <Center>
         <Box marginTop='30px'>
@@ -21,12 +28,7 @@ export default function Home() {
         <Container maxW='container.xl'>
           <SimpleGrid minChildWidth='450px' spacing={2}>
 
-            <HavannaCard/>
-            <ParklandCard/>
-            <ReddingtonCard/>
-            <EuracareCard/>
-            <LifefortCard/>
-            <EttaAtlanticCard/>
+            {hospitalCards}
 
           </SimpleGrid>
         </Container>
