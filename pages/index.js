@@ -1,8 +1,8 @@
 import {Box, Center, Container, Divider, Heading, Image, SimpleGrid} from '@chakra-ui/react'
 
 
-import HospitalCard from './Components/HospitalCard'
-import hospitalCardDataa from './Components/hospitalCardDataa'
+import HospitalCard from '../Components/HospitalCard'
+import hospitalCardDataa from '../Components/hospitalCardDataa'
 
 
 export default function Home() {
