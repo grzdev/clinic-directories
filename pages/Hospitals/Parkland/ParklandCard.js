@@ -4,7 +4,7 @@ import { TriangleDownIcon } from '@chakra-ui/icons'
 
 export default function ParklandCard(){
     return(
-        <Box maxW='xl' h='140px' bg='#197AB8' marginTop='40px' borderRadius='20px' display='flex' >
+        <Box maxW='xl' h='140px' bgGradient='linear(to-r, #23a9ff, #48a7ba)' marginTop='40px' borderRadius='20px' display='flex' boxShadow='5px 7px #d0cdcd'>
               <Image src='https://www.parklandespecialists.com/wp-content/uploads/2019/04/PS-Updated-logo.png'  alt="Parkland Specialist Hospital" maxW='8rem' p="30px"/>
               <Box display='flex' flexDirection='column'>
                 <Box display='flex'>
@@ -12,10 +12,10 @@ export default function ParklandCard(){
                 </Box>
                 <Box display='flex' alignItems='center' mt='5px' ml='27px'>
                   <Text color='white'>3.6</Text>
-                  <StarIcon ml='5px' color='#23a9ff'/>
-                  <StarIcon ml='1.5px'color='#23a9ff'/>
-                  <StarIcon ml='1.5px' color='#23a9ff'/>
-                  <StarIcon ml='1.5px' color='#23a9ff'/>
+                  <StarIcon ml='5px' color='#f0ca67'/>
+                  <StarIcon ml='1.5px'color='#f0ca67'/>
+                  <StarIcon ml='1.5px' color='#f0ca67'/>
+                  <StarIcon ml='1.5px' color='#f0ca67'/>
                   <StarIcon ml='1.5px' color='lightgrey'/>
                   <Text color='white' ml='10px'>(42 Reviews)</Text>
                 </Box>
@@ -25,7 +25,7 @@ export default function ParklandCard(){
                 </Box>
                 <Box display='block' ml='385px' mt='-70px'>
                   <InfoOutlineIcon color='white'/>
-                  <Text color='white' ml='-25px' >More info?</Text>
+                  <Text color='white' ml='-25px' textDecoration='underline' cursor='pointer'>More info?</Text>
                 </Box>
               </Box>
             </Box>

@@ -3,7 +3,7 @@ import {StarIcon, TriangleDownIcon,InfoOutlineIcon} from '@chakra-ui/icons'
 
 export default function EuracareCard(){
     return(
-        <Box maxW='xl' h='140px' bg='#197AB8' marginTop='40px' borderRadius='20px' display='flex' >
+        <Box maxW='xl' h='140px' bgGradient='linear(to-r, #23a9ff, #48a7ba)' marginTop='40px' borderRadius='20px' display='flex' boxShadow='5px 7px #d0cdcd'>
               <Image src='https://www.euracarehealth.com/wp-content/uploads/2020/06/euracare-2.png' alt="Euracare Multi-Specialist Hospital" maxW='8rem' p="25px"/>
               <Box display='flex' flexDirection='column'>
                 <Box display='flex'>
@@ -11,11 +11,11 @@ export default function EuracareCard(){
                 </Box>
                 <Box display='flex' alignItems='center' mt='5px' ml='27px'>
                   <Text color='white'>5.0</Text>
-                  <StarIcon ml='5px' color='#23a9ff'/>
-                  <StarIcon ml='1.5px'color='#23a9ff'/>
-                  <StarIcon ml='1.5px' color='#23a9ff'/>
-                  <StarIcon ml='1.5px' color='#23a9ff'/>
-                  <StarIcon ml='1.5px' color='#23a9ff'/>
+                  <StarIcon ml='5px' color='#f0ca67'/>
+                  <StarIcon ml='1.5px'color='#f0ca67'/>
+                  <StarIcon ml='1.5px' color='#f0ca67'/>
+                  <StarIcon ml='1.5px' color='#f0ca67'/>
+                  <StarIcon ml='1.5px' color='#f0ca67'/>
                   <Text color='white' ml='10px'>(73 Reviews)</Text>
                 </Box>
                 <Box ml='12px' display='flex' mt='5px'>
@@ -24,7 +24,7 @@ export default function EuracareCard(){
                 </Box>
                 <Box display='block' ml='380px' mt='-60px'>
                   <InfoOutlineIcon color='white'/>
-                  <Text color='white' ml='-25px' >More info?</Text>
+                  <Text color='white' ml='-25px' textDecoration='underline' cursor='pointer'>More info?</Text>
                 </Box>
               </Box>
             </Box>

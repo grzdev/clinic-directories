@@ -1,4 +1,4 @@
-import {Box, Center, Container, Heading, Image, SimpleGrid} from '@chakra-ui/react'
+import {Box, Center, Container, Divider, Heading, Image, SimpleGrid} from '@chakra-ui/react'
 
 import HavannaCard from './Hospitals/Havanna/HavannaCard'
 import ParklandCard from './Hospitals/Parkland/ParklandCard'
@@ -20,7 +20,7 @@ export default function Home() {
 
         <Container maxW='container.xl'>
           <SimpleGrid minChildWidth='450px' spacing={2}>
-
+          {/* <Divider orientation='horizontal' color='black'/> */}
             <HavannaCard/>
             <ParklandCard/>
             <ReddingtonCard/>
