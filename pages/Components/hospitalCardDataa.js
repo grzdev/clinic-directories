@@ -1,5 +1,4 @@
-const hospitalCardDataa = {
-    "hospitals":[
+export default [
     {
         id: 1,
         img: "https://www.havanaspecialisthospital.com/media/img/logo_xy.png",
@@ -60,6 +59,4 @@ const hospitalCardDataa = {
         },
         address: "2 Abioro St, Ikate 106104, Lekki, Lagos"
     }
-]}
-
-export default hospitalCardDataa();
+]
