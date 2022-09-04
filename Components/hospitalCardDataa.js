@@ -17,7 +17,7 @@ export default [
             rating: 3.6,
             reviewCount: 42
         },
-        address: "13, Razaq Balogun Street, Surulere, Lagos"
+        address: "13, Razaq Balogun St, Surulere, Lagos"
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ export default [
             rating: 3.0,
             reviewCount: "121"
         },
-        address: "12, Ajanaku Street, Opebi, Ikeja, Lagos"
+        address: "12, Ajanaku Str, Opebi, Ikeja, Lagos"
     },
     {
         id: 4,
@@ -47,12 +47,12 @@ export default [
             rating: 4.3,
             reviewCount: 13
         },
-        address: "70 Agege Motor road, by Bishop St, Lagos"
+        address: "70 Agege Motor road, Lagos"
     },
     {
         id: 6,
         img: "https://www.ettaatlantic.com/wp-content/uploads/2018/12/Etta-Atlantic-Memorial-Hospital-logo.png",
-        name: "Etta-Atlantic Memorial Hospital",
+        name: "Etta-Atlantic Hospital",
         stats: {
             rating: 4.0,
             reviewCount: 37
