@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         img: "https://www.havanaspecialisthospital.com/media/img/logo_xy.png",
-        name: "Havana specialist hospital",
+        name: "Havana Specialist Hospital",
         stats: {
             rating: 4.0,
             reviewCount: 30
@@ -32,7 +32,7 @@ export default [
     {
         id: 4,
         img: "https://www.euracarehealth.com/wp-content/uploads/2020/06/euracare-2.png",
-        name: "Euracare Hospital",
+        name: "Euracare Specialist Hospital",
         stats: {
             rating: 4.9,
             reviewCount: 73
@@ -52,7 +52,7 @@ export default [
     {
         id: 6,
         img: "https://www.ettaatlantic.com/wp-content/uploads/2018/12/Etta-Atlantic-Memorial-Hospital-logo.png",
-        name: "Etta-Atlantic Hospital",
+        name: "Etta-Atlantic Memorial Hospital",
         stats: {
             rating: 4.0,
             reviewCount: 37

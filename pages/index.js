@@ -1,4 +1,4 @@
-import {Box, Center, Container, Divider, Heading, Image, SimpleGrid} from '@chakra-ui/react'
+import {Box, Container, Heading, Image, SimpleGrid  } from '@chakra-ui/react'
 
 
 import HospitalCard from '../Components/HospitalCard'
@@ -15,21 +15,21 @@ export default function Home() {
         />
       )
     })
-  
-  return (
-    /*MAP HERE*/ 
 
-    <Container maxW='container.xl' bg='#F4FAFF' mt='30px' borderRadius='20px'>
-      <Center>
+
+  return (
+
+    <Container maxW='auto' mt='30px' borderRadius='20px' centerContent>
         <Box marginTop='30px'>
           <Image src='http://swiftmedispark.com/img/medispark-logo.png'  alt=" "/>
-          <Heading marginLeft='60px' fontSize='25px' fontFamily='Sans-serif' color='#197AB8'>CLINICS</Heading>
+          <Heading marginLeft='60px' fontSize='25px' fontFamily='Sans-serif' color='#197AB8'>
+            CLINICS
+          </Heading>
         </Box>
-      </Center>
-
+        
         <Container maxW='container.xl'>
           <SimpleGrid minChildWidth='450px' spacing={2}>
-
+            
             {hospitalCards}
 
           </SimpleGrid>
