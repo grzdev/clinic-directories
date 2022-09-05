@@ -21,7 +21,7 @@ export default [
         googleMapUrl:"https://goo.gl/maps/PJ7Nu7fJr1qjqGAq6",
         openingHours:"24 hours",
         services:"General Medicine, Paediatrics, Antenatal Care, Surgical Services...",
-        specialties:"Obstetrics and Gynaecology, Paediatrics, Surgery, Internal Medicine, Ultrasound Scan"
+        specialties:"Obstetrics, Gynaecology, Surgery, Internal Medicine, Ultrasound Scan..."
     },
     {
         id:3,
@@ -32,8 +32,8 @@ export default [
         email:"info@reddingtonhospital.com",
         googleMapUrl:"https://goo.gl/maps/LxUiSvqHPM1FnSAM6",
         openingHours:"24 hours",
-        services:"General Medicine, Paediatrics, Antenatal Care, Surgical Services",
-        specialties:"Obstetrics and Gynaecology, Paediatrics, Surgery, Internal Medicine, Ultrasound Scan"
+        services:"Obstetrics, Gynaecology, Paediatrics, Surgery, Internal Medicine...   ",
+        specialties:"General Medicine, Paediatrics, Antenatal Care, Surgical Services..."
     },
     {
         id:4,
@@ -44,8 +44,8 @@ export default [
         email:"info@euracare.com.gh",
         googleMapUrl:"https://goo.gl/maps/tiEQ6jTcwoqpmzYC9",
         openingHours:"24 hours",
-        services:"Interventional Cardiology, Interventional Radiology, Advanced Cardiac Imaging, Antenatal & Postnatal Care",
-        specialties:"Catheterization Laboratory, Clinical Laboratory, Non-Invasive Cardiology, Acute Stroke Unit, Endoscopy Suite"
+        services:"Interventional Cardiology, Interventional Radiology, Advanced Cardiac Imaging",
+        specialties:"Catheterization Laboratory, Clinical Laboratory, Non-Invasive Cardiology"
     },
     {
         id:5,
@@ -62,7 +62,7 @@ export default [
     {
         id:6,
         logo:"https://www.ettaatlantic.com/wp-content/uploads/2018/12/Etta-Atlantic-Memorial-Hospital-logo.png",
-        name:"Etta-Atlantic Memorial Hospital",
+        name:"Etta-Atlantic Hospital",
         website:"https://www.ettaatlantic.com/",
         contact:"08083734008",
         email:"hello@ettaatlantic.com",

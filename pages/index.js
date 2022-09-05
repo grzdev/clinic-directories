@@ -27,7 +27,7 @@ export default function Home() {
           </Heading>
         </Box>
         
-        <Container maxW='container.xl'>
+        <Container maxW='container.xl' centerContent>
           <SimpleGrid minChildWidth='450px' spacing={2}>
             
             {hospitalCards}

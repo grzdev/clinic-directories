@@ -1,4 +1,4 @@
-import { Container, Box, Image, Heading, Link, Text} from "@chakra-ui/react"
+import { Box, Image, Heading, Link, Text} from "@chakra-ui/react"
 import { LinkIcon } from '@chakra-ui/icons'
 import React from "react";
 import { FaEnvelope, FaPhoneAlt } from "react-icons/fa"
@@ -8,7 +8,7 @@ export default function HospitalMainCard(props){
             <Box w='500px' h='550px' bgGradient='linear(to-r, #23a9ff, #48a7ba)' mt='80px' borderRadius='30px' boxShadow=' 0 10px 20px -5px #848b90' display='flex'>
                 <Image src={`${props.logo}`} alt='' w='160px' h='160px' p='40px'/>
                 <Heading fontSize='2xl' color='white' marginTop='37px' ml='-12px'>
-                    Havana specialist hospital
+                    {props.name}
                 </Heading>
                 
                 <Box display='flex' flexDirection='column' mt='77px' ml='-290px' alignItems='center'>
