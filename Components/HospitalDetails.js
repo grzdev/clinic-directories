@@ -9,7 +9,7 @@ export default [
         googleMapUrl:"https://goo.gl/maps/SrWeMTihUrziqZvb8",
         openingHours:"24 hours",
         services:"Cardiology, Physiotherapy, Paedistrics, Oncology, Dermatology,Laboratory Services...",
-        specialties:"General Medicine & Surgery, Obstetrics & Gynaecology, Cardiology, Paediatrics"
+        specialties:"General Medicine & Surgery, Obstetrics & Gynaecology, Cardiology, Paediatrics..."
     },
     {
         id:2,
@@ -44,8 +44,8 @@ export default [
         email:"info@euracare.com.gh",
         googleMapUrl:"https://goo.gl/maps/tiEQ6jTcwoqpmzYC9",
         openingHours:"24 hours",
-        services:"Interventional Cardiology, Interventional Radiology, Advanced Cardiac Imaging",
-        specialties:"Catheterization Laboratory, Clinical Laboratory, Non-Invasive Cardiology"
+        services:"Interventional Cardiology, Interventional Radiology, Advanced Cardiac Imaging...",
+        specialties:"Catheterization Laboratory, Clinical Laboratory, Non-Invasive Cardiology..."
     },
     {
         id:5,
@@ -56,8 +56,8 @@ export default [
         email:"info@lifefortchildrenshospital.com",
         googleMapUrl:"https://g.page/lifefort-children-s-hospital?share",
         openingHours:"24 hours",
-        services:"Immunization, Wound Care, Dispensary, New-born Care, Laboratory Services",
-        specialties:" Paediatric Surgery, School health services"
+        services:"Immunization, Wound Care, Dispensary, New-born Care, Laboratory Services...",
+        specialties:" Paediatric Surgery, School health services, Haematology, Gastroenterology..."
     },
     {
         id:6,
@@ -68,8 +68,8 @@ export default [
         email:"hello@ettaatlantic.com",
         googleMapUrl:"https://g.page/ettaatlanticmemorialhospital?share",
         openingHours:"24 hours",
-        services:"Medical Laboratory and diagnostics, Pharmacy, Telemedicine, Sexual Health Counselling",
-        specialties:"Cardiology, Nephrology, Endocrinology, Haematology, Gastroenterology"
+        services:"Medical Laboratory and diagnostics, Pharmacy, Telemedicine, Sexual Health Counselling...",
+        specialties:"Cardiology, Nephrology, Endocrinology, Haematology, Gastroenterolog...y"
     }
 
 ]
