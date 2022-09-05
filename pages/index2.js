@@ -1,4 +1,4 @@
-import HospitalMainCard from "./HospitalMainCard";
+import HospitalMainCard from "../Components/HospitalMainCard";
 import HospitalDetails from "../Components/HospitalDetails";
 import { Container, SimpleGrid} from "@chakra-ui/react";
 
@@ -14,9 +14,9 @@ export default function SecondPage(){
     })
 
     return(
-        <Container maxW='container.xl'>
-             <SimpleGrid minChildWidth='450px' spacing={2}>
-            {hospitalMainCard}
+        <Container maxW='container.xs' centerContent>
+             <SimpleGrid>
+                {hospitalMainCard}
             </SimpleGrid>
         </Container>
     )

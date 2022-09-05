@@ -1,7 +1,7 @@
 import { Box, Image, Heading, Link, Text} from "@chakra-ui/react"
 import { LinkIcon } from '@chakra-ui/icons'
 import React from "react";
-import { FaEnvelope, FaPhoneAlt } from "react-icons/fa"
+import { FaEnvelope, FaPhoneAlt, FaMapPin} from "react-icons/fa"
 
 export default function HospitalMainCard(props){
     return(
@@ -22,7 +22,8 @@ export default function HospitalMainCard(props){
                         </Link>
                     </Box>
 
-                    <Box display='flex' ml='100px' mt='-23px'>
+                    <Box display='flex' ml='90px' mt='-23px'>
+                        <FaMapPin color='red'/>
                         <Link href={props.googleMapUrl}>
                             <Text fontSize='sm' textDecor='underline' color='white' fontFamily='sans-serif' fontWeight={400}>
                                 View in Google Maps

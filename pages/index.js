@@ -19,9 +19,9 @@ export default function Home() {
 
   return (
 
-    <Container maxW='auto' mt='30px' borderRadius='20px' centerContent>
+    <Container maxW='auto' borderRadius='20px' centerContent >
         <Box marginTop='30px'>
-          <Image src='http://swiftmedispark.com/img/medispark-logo.png'  alt=" "/>
+          <Image src='http://swiftmedispark.com/img/medispark-logo.png'  alt=" " mt='30px'/>
           <Heading marginLeft='60px' fontSize='25px' fontFamily='Sans-serif' color='#197AB8'>
             CLINICS
           </Heading>

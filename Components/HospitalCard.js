@@ -14,10 +14,10 @@ export default function HospitalCard(props){
 
               <Box display='flex' flexDirection='column'>
                 <Box display='flex'>
-                  <Heading fontSize='md' color='white' marginTop='20px'>{props.name}</Heading>
+                  <Heading fontSize='md' color='white' marginTop='30px' ml='-10px'>{props.name}</Heading>
                 </Box>
 
-                <Box display='flex' alignItems='center' mt='2px' >
+                <Box display='flex' alignItems='center' mt='2px' ml='-10px'>
                   {Array(5)
                   .fill('')
                   .map((_, i) => (
@@ -29,12 +29,12 @@ export default function HospitalCard(props){
                   <Text color='white' ml='10px'>{props.stats.reviewCount} Reviews</Text>
                 </Box>
                 
-                <Box ml='-10px' display='flex' mt='2px'>
+                <Box ml='-20px' display='flex' mt='2px'>
                   <TriangleDownIcon ml='10px' mt='5px' color='red'/>
                   <Text fontSize='13px' color='white' wordBreak='normal'>{props.address}</Text>
                 </Box>
 
-                <Box display='flex' mt='15px' ml='35px'>
+                <Box display='flex' mt='10px' ml='25px'>
                   <button type="button" onClick={()=> router.push('/index2')}>
                     <Text fontFamily='sans-serif' color='white' _hover='black' cursor='pointer' fontWeight={550}>
                       More info?
