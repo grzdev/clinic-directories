@@ -8,7 +8,6 @@ import { useRouter } from "next/router";
 export default function HospitalCard(props){
 
    const router = useRouter() 
-   const {HospitalPage} = router.query
     
     return(
         <Box maxW='sm' h='140px' bgGradient='linear(to-r, #23a9ff, #48a7ba)' marginTop='40px' borderRadius='20px' display='flex'  boxShadow=' 0 10px 20px -5px #848b90' ml='40px'>
