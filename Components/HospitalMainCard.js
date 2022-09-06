@@ -6,7 +6,7 @@ import { FaEnvelope, FaPhoneAlt, FaMapPin} from "react-icons/fa"
 export default function HospitalMainCard(props){
     return(
             <Box maxW={"xl"} maxH={'100vh'} bgGradient='linear(to-r, #23a9ff, #48a7ba)' mt='100px' borderRadius='50px' boxShadow=' 0 10px 20px -5px #848b90' display='flex' p={'20px'}>
-                <Image src={`${props.logo}`} alt='' w='160px' h='160px' p='40px' ml={"-20px"} mt={'-20px'}/>
+                <Image src={`${props.logo}`} alt='Hospital-image2' w='160px' h='160px' p='40px' ml={"-20px"} mt={'-20px'}/>
 
                 <Box display='flex' flexDir='column'>
                     <Heading fontSize='1.2rem' color='white' marginTop='20px' ml='-18px'>
