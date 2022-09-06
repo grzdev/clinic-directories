@@ -5,15 +5,15 @@ import { FaEnvelope, FaPhoneAlt, FaMapPin} from "react-icons/fa"
 
 export default function HospitalMainCard(props){
     return(
-            <Box w='450px' h='550px' bgGradient='linear(to-r, #23a9ff, #48a7ba)' mt='100px' borderRadius='50px' boxShadow=' 0 10px 20px -5px #848b90' display='flex'>
-                <Image src={`${props.logo}`} alt='' w='160px' h='160px' p='40px'/>
+            <Box maxW={"xl"} maxH={'100vh'} bgGradient='linear(to-r, #23a9ff, #48a7ba)' mt='100px' borderRadius='50px' boxShadow=' 0 10px 20px -5px #848b90' display='flex' p={'20px'}>
+                <Image src={`${props.logo}`} alt='' w='160px' h='160px' p='40px' ml={"-20px"} mt={'-20px'}/>
 
                 <Box display='flex' flexDir='column'>
-                    <Heading fontSize='1.3rem' color='white' marginTop='37px' ml='-20px'>
+                    <Heading fontSize='1.2rem' color='white' marginTop='20px' ml='-18px'>
                         {props.name}
                     </Heading>
                     
-                    <Box display='flex' ml='-30px' mt='10px'>
+                    <Box display='flex' ml='-28px' mt='10px'>
                         <Link href={props.website}>
                             <Text fontSize='sm' color='white' fontFamily='sans-serif'> 
                                 <LinkIcon ml='10px'/>
@@ -22,10 +22,10 @@ export default function HospitalMainCard(props){
                         </Link>
                     </Box>
 
-                    <Box display='flex' ml='90px' mt='-23px'>
+                    <Box display='flex' ml='80px' mt='-21px'>
                         <FaMapPin color='red'/>
                         <Link href={props.googleMapUrl}>
-                            <Text fontSize='sm' textDecor='underline' color='white' fontFamily='sans-serif' fontWeight={400}>
+                            <Text fontSize='xs' textDecor='underline' color='white' fontFamily='sans-serif' fontWeight={400}>
                                 View in Google Maps
                             </Text>
                         </Link>
@@ -37,42 +37,47 @@ export default function HospitalMainCard(props){
                         ></Text>
                     </Box>
 
-                    <Box display="flex" mt='10px'>
-                        <Text fontSize='1.7rem' color='white' fontWeight={600}  mt='20px' ml='-80px'>
+                    <Box display="flex" mt='-10px'>
+                        <Text fontSize='1.5rem' color='white' fontWeight={600}  mt='20px' ml='-60px'>
                             Specialties
                         </Text>
-                        <Text fontSize='17px' color='white' ml='-90px' mt='20px' fontWeight={500} p='40px'>
+                        <Text fontSize='15px' color='white' ml='-125px' mt='20px' fontWeight={500} p='40px'>
                             {props.specialties}
                         </Text>
                     </Box>
 
 
-                    <Box display="flex" >
-                        <Text fontSize='1.7rem' color='white' fontWeight={600} mt='-20px' ml='-80px'>
+                    <Box display="flex" mt={"-5"} >
+                        <Text fontSize='1.5rem' color='white' fontWeight={600} mt='-20px' ml='-60px'>
                             Services
                         </Text>
-                        <Text fontSize='17px' color='white' fontWeight={500}  ml='-60px' mt='-18px' p='40px'>
+                        <Text fontSize='15px' color='white' fontWeight={500}  ml='-100px' mt='-18px' p='40px'>
                             {props.services}
                         </Text>
                     </Box>
 
 
-                    <Box display='flex' ml='-15px'> 
+                    <Box display='flex' ml='-40px'> 
                         <Box>
-                        <FaPhoneAlt fontSize='30px' color='white'/>
+                        <FaPhoneAlt fontSize='25px' color='white'/>
                         <Text color='white' ml='-20px' fontSize='12px'>
                             {props.contact}
                         </Text>
                         </Box>
 
                         <Box ml='80px'>
-                        <FaEnvelope fontSize='30px' color='white'/>
+                        <FaEnvelope fontSize='25px' color='white'/>
                         <Text  color='white' ml='-60px' fontSize='12px' letterSpacing='-1px'>
                             {props.email}
                         </Text>
                         </Box>
-                        
                     </Box>
+
+                    {/* <Box>
+                        <button color="">
+
+                        </button>
+                    </Box> */}
                 </Box>
             </Box>
     )
