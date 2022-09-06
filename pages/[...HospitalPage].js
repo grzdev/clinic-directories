@@ -1,5 +1,5 @@
-import HospitalMainCard from "../Components/hospitalMainCard";
-import HospitalDetails from "../Components/hospitalDetails";
+import HospitalMainCard from "../Components/HospitalMainCard";
+import HospitalDetails from "../Components/HospitalDetails";
 import { Container, SimpleGrid} from "@chakra-ui/react";
 import { useRouter } from "next/router";
 
