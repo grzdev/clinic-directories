@@ -4,12 +4,14 @@ import { useRouter } from "next/router";
 
 
 
+
 export default function HospitalCard(props){
 
-   const router = useRouter()
+   const router = useRouter() 
+   const {HospitalPage} = router.query
     
     return(
-        <Box maxW='sm' h='140px' bgGradient='linear(to-r, #23a9ff, #48a7ba)' marginTop='40px' borderRadius='20px' display='flex'  boxShadow=' 0 10px 20px -5px #848b90' ml='50px'>
+        <Box maxW='sm' h='140px' bgGradient='linear(to-r, #23a9ff, #48a7ba)' marginTop='40px' borderRadius='20px' display='flex'  boxShadow=' 0 10px 20px -5px #848b90' ml='40px'>
               <Image src={`${props.img}`}  alt="Hospital-Image" maxW='8rem' p="30px"/>
 
               <Box display='flex' flexDirection='column'>
@@ -28,14 +30,16 @@ export default function HospitalCard(props){
                    ))}
                   <Text color='white' ml='10px'>{props.stats.reviewCount} Reviews</Text>
                 </Box>
-                
+                 
                 <Box ml='-20px' display='flex' mt='2px'>
                   <TriangleDownIcon ml='10px' mt='5px' color='red'/>
                   <Text fontSize='13px' color='white' wordBreak='normal'>{props.address}</Text>
                 </Box>
 
                 <Box display='flex' mt='10px' ml='25px'>
-                  <button type="button" onClick={()=> router.push('/index2')}>
+                  <button type="button" onClick={()=> router.push({
+                    pathname:'/HospitalPage/'
+                  })}>
                     <Text fontFamily='sans-serif' color='white' _hover='black' cursor='pointer' fontWeight={550}>
                       More info?
                       <ChevronRightIcon/>

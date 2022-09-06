@@ -5,7 +5,7 @@ import { FaEnvelope, FaPhoneAlt, FaMapPin} from "react-icons/fa"
 
 export default function HospitalMainCard(props){
     return(
-            <Box w='450px' h='550px' bgGradient='linear(to-r, #23a9ff, #48a7ba)' mt='80px' borderRadius='30px' boxShadow=' 0 10px 20px -5px #848b90' display='flex'>
+            <Box w='450px' h='550px' bgGradient='linear(to-r, #23a9ff, #48a7ba)' mt='100px' borderRadius='50px' boxShadow=' 0 10px 20px -5px #848b90' display='flex'>
                 <Image src={`${props.logo}`} alt='' w='160px' h='160px' p='40px'/>
 
                 <Box display='flex' flexDir='column'>
@@ -67,7 +67,7 @@ export default function HospitalMainCard(props){
 
                         <Box ml='80px'>
                         <FaEnvelope fontSize='30px' color='white'/>
-                        <Text  color='white' ml='-40px' fontSize='12px' letterSpacing='-1px'>
+                        <Text  color='white' ml='-60px' fontSize='12px' letterSpacing='-1px'>
                             {props.email}
                         </Text>
                         </Box>
