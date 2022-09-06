@@ -7,7 +7,8 @@ import { useRouter } from "next/router";
 
 export default function HospitalCard(props){
 
-   const router = useRouter() 
+   const router = useRouter()
+
     
     return(
         <Box maxW='sm' h='140px' bgGradient='linear(to-r, #23a9ff, #48a7ba)' marginTop='40px' borderRadius='20px' display='flex'  boxShadow=' 0 10px 20px -5px #848b90' ml='40px'>
@@ -37,7 +38,7 @@ export default function HospitalCard(props){
 
                 <Box display='flex' mt='10px' ml='25px'>
                   <button type="button" onClick={()=> router.push({
-                    pathname:'/HospitalPage/'
+                    pathname:`/HospitalPage/${props.id}`
                   })}>
                     <Text fontFamily='sans-serif' color='white' _hover='black' cursor='pointer' fontWeight={550}>
                       More info?
