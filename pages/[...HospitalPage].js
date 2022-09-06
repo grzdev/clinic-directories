@@ -8,7 +8,7 @@ export default function SecondPage(){
     const {query} = useRouter()
 
     const currentHospitalDetails = HospitalDetails.find((hospital)=> {
-        return(hospital.id == parseInt(query.hospitalPage[1])) 
+        return(hospital.id == parseInt(query.HospitalPage[1])) 
     })
     console.log(currentHospitalDetails)
 
