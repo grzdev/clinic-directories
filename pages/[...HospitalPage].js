@@ -1,7 +1,6 @@
 import HospitalMainCard from "../Components/HospitalMainCard";
 import HospitalDetails from "../Components/HospitalDetails";
 import { Container, SimpleGrid} from "@chakra-ui/react";
-import { useRouter } from "next/router";
 
 export default function SecondPage(){
 

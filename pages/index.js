@@ -2,12 +2,12 @@ import {Box, Container, Heading, Image, SimpleGrid  } from '@chakra-ui/react'
 
 
 import HospitalCard from '../Components/HospitalCard'
-import HospitalCardDataa from '../Components/HospitalCardDataa'
+import hospitalCardDataa from '../Components/hospitalCardDataa'
 
 
 export default function Home() {
 
-    const hospitalCards = HospitalCardDataa.map(card=>{
+    const hospitalCards = hospitalCardDataa.map(card=>{
       return(
         <HospitalCard
         key={card.id}
