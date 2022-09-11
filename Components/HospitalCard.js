@@ -37,9 +37,7 @@ export default function HospitalCard(props){
                 </Box>
 
                 <Box display='flex' mt='10px' ml='25px'>
-                  <button type="button" onClick={()=> router.push({
-                    pathname:`/HospitalPage/${props.id}`
-                  })}>
+                  <button type="button" onClick={()=> router.push(`/HospitalPage/${props.id}`)}>
                     <Text fontFamily='sans-serif' color='white' _hover='black' cursor='pointer' fontWeight={550}>
                       More info?
                       <ChevronRightIcon/>
