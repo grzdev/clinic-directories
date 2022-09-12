@@ -1,15 +1,13 @@
 import {Box, Container, Heading, Image, SimpleGrid  } from '@chakra-ui/react'
-
-
-import HospitalCard from '../Components/HospitalCard'
-import hospitalCardDataa from '../Components/hospitalCardDataa'
+import Cards from '../Components/Cards'
+import cardApi from '../Components/cardApi'
 
 
 export default function Home() {
 
-    const hospitalCards = hospitalCardDataa.map(card=>{
+    const hospitalCard = cardApi.map(card=>{
       return(
-        <HospitalCard
+        <Cards
         key={card.id}
         {...card}
         />
@@ -30,7 +28,7 @@ export default function Home() {
         <Container maxW='container.xl' centerContent>
           <SimpleGrid minChildWidth='450px' spacing={2}>
             
-            {hospitalCards}
+            {hospitalCard}
 
           </SimpleGrid>
         </Container>

@@ -1,10 +1,11 @@
-import { Box, Image, Heading, Link, Text} from "@chakra-ui/react"
-import { LinkIcon } from '@chakra-ui/icons'
+import { Box, Image, Heading, Text, Button, Container, Center, Link} from "@chakra-ui/react"
+import { LinkIcon, ChevronLeftIcon } from '@chakra-ui/icons'
 import React from "react";
 import { FaEnvelope, FaPhoneAlt, FaMapPin} from "react-icons/fa"
 
-export default function HospitalMainCard(props){
+export default function detailsCard(props){
     return(
+        <Container>
             <Box maxW={"xl"} maxH={'100vh'} bgGradient='linear(to-r, #23a9ff, #48a7ba)' mt='100px' borderRadius='50px' boxShadow=' 0 10px 20px -5px #848b90' display='flex' p={'20px'}>
                 <Image src={`${props.logo}`} alt='Hospital-image2' w='160px' h='160px' p='40px' ml={"-20px"} mt={'-20px'}/>
 
@@ -26,15 +27,14 @@ export default function HospitalMainCard(props){
                         <FaMapPin color='red'/>
                         <Link href={props.googleMapUrl}>
                             <Text fontSize='xs' textDecor='underline' color='white' fontFamily='sans-serif' fontWeight={400}>
-                                View in Google Maps
+                                View in Maps
                             </Text>
                         </Link>
                     </Box>
 
                     <Box display='flex' mt='8px' ml='-14px'>
                         <Text fontSize='1rem' color='white' fontWeight={600}>
-                            Service Hours: <i>{props.openingHours}</i
-                        ></Text>
+                            Service Hours: <i>{props.openingHours}</i></Text>
                     </Box>
 
                     <Box display="flex" mt='-10px'>
@@ -57,7 +57,7 @@ export default function HospitalMainCard(props){
                     </Box>
 
 
-                    <Box display='flex' ml='-40px'> 
+                    <Box display='flex' ml='-80px'> 
                         <Box>
                         <FaPhoneAlt fontSize='25px' color='white'/>
                         <Text color='white' ml='-20px' fontSize='12px'>
@@ -72,13 +72,15 @@ export default function HospitalMainCard(props){
                         </Text>
                         </Box>
                     </Box>
-
-                    {/* <Box>
-                        <button color="">
-
-                        </button>
-                    </Box> */}
                 </Box>
             </Box>
+
+            <Center mt={'50px'}>     
+                <Button onClick={()=> {javascript:history.back()}} type="button" bgGradient='linear(to-r, #23a9ff, #48a7ba)' w="110px" h="40px" borderRadius={'30px'} boxShadow=' 0 10px 20px -5px #848b90'>
+                    <ChevronLeftIcon color={'white'} fontSize={'40px'}/>
+                </Button>
+            </Center>
+
+    </Container>
     )
 }

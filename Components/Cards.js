@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 
 
 
-export default function HospitalCard(props){
+export default function Cards(props){
 
    const router = useRouter()
 

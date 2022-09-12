@@ -1,5 +1,5 @@
-import HospitalMainCard from "../Components/HospitalMainCard";
-import HospitalDetails from "../Components/HospitalDetails";
+import Details from "../Components/Details";
+import detailApi from "../Components/detailApi";
 import { Container, SimpleGrid} from "@chakra-ui/react";
 import { useRouter } from "next/router";
 
@@ -7,18 +7,17 @@ import { useRouter } from "next/router";
 export default function SecondPage(){
     const {query} = useRouter()
 
-    const currentHospitalDetails = HospitalDetails.find((hospital)=> {
+    const currentDetails = detailApi.find((hospital)=> {
         return(hospital.id == parseInt(query.HospitalPage[1])) 
     })
-    console.log(currentHospitalDetails)
 
 
     return(
         <Container maxW='container.xs' centerContent>
              <SimpleGrid>
-             <HospitalMainCard
-                {...currentHospitalDetails}
-            /> 
+                <Details
+                    {...currentDetails}
+                /> 
             </SimpleGrid>
         </Container>
     )
