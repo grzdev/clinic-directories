@@ -53,7 +53,7 @@ export default function Home() {
           </SimpleGrid>
         </Container>
 
-          <Box mt='2rem' bg='#197AB8' mb='2rem' display='flex' justifyContent='center' color='white' borderRadius='1rem' h='1.8rem' w='12rem' boxShadow=' 0 0.625rem 1.3rem -0.325rem #848b90' fontWeight={500}>
+          <Box mt='2rem' ml='1.5rem' bg='#197AB8' mb='2rem' display='flex' justifyContent='center' color='white' borderRadius='1rem' h='1.8rem' w='12rem' boxShadow=' 0 0.625rem 1.3rem -0.325rem #848b90' fontWeight={500}>
             <footer>
                 <Link href='http://swiftmedispark.com/'>
                   <Text>Swift-MediSpark.com</Text>
