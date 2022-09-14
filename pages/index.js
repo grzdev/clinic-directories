@@ -26,26 +26,26 @@ export default function Home() {
 
   return (
 
-    <Container maxW='auto' borderRadius='20px' centerContent >
-        <Box marginTop='30px'>
+    <Container maxW='auto' borderRadius='1.25rem' centerContent >
+        <Box marginTop='1.87rem'>
           <Image src='http://swiftmedispark.com/img/medispark-logo.png'  alt=" " mt='30px'/>
-          <Heading marginLeft='60px' fontSize='25px' fontFamily='Sans-serif' color='#197AB8'>
+          <Heading marginLeft='3.75rem' fontSize='1.6rem' fontFamily='Sans-serif' color='#197AB8'>
             CLINICS
           </Heading>
           
-          <Box ml={'250px'} mt={'-50px'}>
-             <Input htmlSize={3} width='auto' variant={'outline'} borderBottom={"5px solid #197AB8"} 
+          <Box ml='15.625rem' mt='-3.125rem'>
+             <Input htmlSize={3} width='auto' variant='outline' borderBottom="0.3rem solid #197AB8" 
                     border="none" placeholder='Search...' onChange={event=> {setSearchTerm(event.target.value)}}
               /> 
           </Box>
 
-          <Box  ml={"350px"} mt={'-25px'}>
-          <FaSort color='#197AB8' fontSize={"20px"}/>
-          </Box>
+          {/* <Box  ml="22rem" mt='-1.6rem'>
+          <FaSort color='#197AB8' fontSize="1.25rem"/>
+          </Box> */}
         </Box>
         
         <Container maxW='container.xl' centerContent>
-          <SimpleGrid minChildWidth='450px' spacing={2}>
+          <SimpleGrid minChildWidth='28.1rem' spacing={2}>
             
             {hospitalCard}
 
