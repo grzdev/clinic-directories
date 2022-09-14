@@ -34,7 +34,7 @@ export default function Home() {
           </Heading>
           
           <Box ml='15.625rem' mt='-3.125rem'>
-             <Input htmlSize={3} width='auto' variant='outline' borderBottom="0.3rem solid #197AB8" 
+             <Input htmlSize={4} width='auto' variant='outline' borderBottom="0.3rem solid #197AB8" 
                     border="none" placeholder='Search...' onChange={event=> {setSearchTerm(event.target.value)}}
                     _placeholder={{fontSize:"0.9rem"}}
               /> 
