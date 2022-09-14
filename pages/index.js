@@ -2,7 +2,6 @@ import {Box, Container, Heading, Image, SimpleGrid, Input} from '@chakra-ui/reac
 import Cards from '../Components/Cards'
 import cardApi from '../Components/cardApi.json'
 import { useState } from 'react'
-import { FaSort } from "react-icons/fa"
 
 
 export default function Home() {
@@ -27,13 +26,13 @@ export default function Home() {
   return (
 
     <Container maxW='auto' borderRadius='1.25rem' centerContent >
-        <Box marginTop='1.87rem'>
-          <Image src='http://swiftmedispark.com/img/medispark-logo.png'  alt=" " mt='30px'/>
-          <Heading marginLeft='3.75rem' fontSize='1.6rem' fontFamily='Sans-serif' color='#197AB8'>
+        <Box marginTop='1rem'>
+          <Image src='http://swiftmedispark.com/img/medispark-logo.png'  alt=" " mt='1.875rem'/>
+          <Heading marginLeft='3.75rem' fontSize='1.2rem' fontFamily='Sans-serif' color='#197AB8'>
             CLINICS
           </Heading>
           
-          <Box ml='15.625rem' mt='-3.125rem'>
+          <Box ml='15.625rem' mt='-3rem'>
              <Input htmlSize={4} width='auto' variant='outline' borderBottom="0.3rem solid #197AB8" 
                     border="none" placeholder='Search...' onChange={event=> {setSearchTerm(event.target.value)}}
                     _placeholder={{fontSize:"0.7rem"}}
