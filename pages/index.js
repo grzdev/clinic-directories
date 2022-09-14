@@ -1,7 +1,8 @@
-import {Box, Container, Heading, Image, SimpleGrid, Input} from '@chakra-ui/react'
+import {Box, Container, Heading, Image, SimpleGrid, Input, Text} from '@chakra-ui/react'
 import Cards from '../Components/Cards'
 import cardApi from '../Components/cardApi.json'
 import { useState } from 'react'
+import { Link } from '@chakra-ui/react'
 
 
 export default function Home() {
@@ -51,6 +52,14 @@ export default function Home() {
 
           </SimpleGrid>
         </Container>
+
+          <Box mt='2rem' bg='#197AB8' mb='2rem' display='flex' justifyContent='center' color='white' borderRadius='1rem' h='1.8rem' w='12rem' boxShadow=' 0 0.625rem 1.3rem -0.325rem #848b90' fontWeight={500}>
+            <footer>
+                <Link href='http://swiftmedispark.com/'>
+                  <Text>Swift-MediSpark.com</Text>
+                </Link>
+            </footer>
+        </Box>
     </Container>
   )
 }

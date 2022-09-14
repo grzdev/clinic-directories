@@ -75,7 +75,7 @@ export default function detailsCard(props){
                 </Box>
             </Box>
 
-            <Center mt='2rem'>     
+            <Center mt='2rem' mb='5rem'>     
                 <Button onClick={()=> {javascript:history.back()}} type="button" bgGradient='linear(to-r, #23a9ff, #48a7ba)' w="6.875rem" h="2.5rem" borderRadius='1.87rem' boxShadow=' 0 0.625rem 1.3rem -0.325rem #848b90'>
                     <ChevronLeftIcon color={'white'} fontSize={'2.5rem'}/>
                 </Button>
