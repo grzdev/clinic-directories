@@ -1,6 +1,6 @@
 import {Box, Container, Heading, Image, SimpleGrid, Input, Text} from '@chakra-ui/react'
-import Cards from '../Components/Cards'
-import cardApi from '../Components/cardApi.json'
+import Cards from '../components/cards'
+import cardApi from '../components/cardApi.json'
 import { useState } from 'react'
 import { Link } from '@chakra-ui/react'
 
@@ -8,7 +8,7 @@ import { Link } from '@chakra-ui/react'
 export default function Home() {
   const [searchTerm , setSearchTerm] = useState("")
 
-    const hospitalCard = cardApi.filter((val)=>{
+    const hospitalCard = cardApi.cardData.filter((val)=>{
       if (searchTerm == ""){
         return val
       }else if (val.name.toLowerCase().includes(searchTerm.toLowerCase())){

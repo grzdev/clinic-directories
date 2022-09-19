@@ -1,5 +1,5 @@
-import Details from "../Components/Details";
-import detailApi from "../Components/detailApi.json"
+import Details from "../components/details";
+import detailApi from "../components/detailApi.json"
 import { Container, SimpleGrid} from "@chakra-ui/react";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
@@ -12,7 +12,7 @@ export default function SecondPage(){
     useEffect(()=>{
         if (query.HospitalPage){
             setCurrentDetails(
-                detailApi.find((hospital)=> {
+                detailApi.detailData.find((hospital)=> {
                     return(hospital.id == parseInt(query?.HospitalPage[1])) 
                 })
             )
