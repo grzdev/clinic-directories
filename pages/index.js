@@ -1,6 +1,6 @@
 import {Box, Container, Heading, Image, SimpleGrid, Input, Text} from '@chakra-ui/react'
-import Cards from '../components/cards'
-import cardApi from '../components/cardApi.json'
+import Cards from '../Components/Cards'
+import cardApi from '../Components/cardApi.json'
 import { useState } from 'react'
 import { Link } from '@chakra-ui/react'
 
