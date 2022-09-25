@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { useState, useEffect } from "react";
 import axios from "axios";
-import {detailApi} from '../../Components/detailApi.json'
+import detailApi from '../../Components/detailApi.json'
 
 // const [details, setDetails] = useState([])
 //  useEffect(()=>{
@@ -29,7 +29,7 @@ const asynfirst = () =>{
                 const response = await axios.get(detailApi);
                 const json = await response.json();
 
-                setData(json);
+                setData(response.data);
             }catch(error){
                 setError(error);
             }finally{
