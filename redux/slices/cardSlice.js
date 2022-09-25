@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { useState, useEffect } from "react";
 import axios from "axios";
-import {detailApi} from '../../components/detailApi.json'
+import {detailApi} from '../../Components/detailApi.json'
 
 // const [details, setDetails] = useState([])
 //  useEffect(()=>{

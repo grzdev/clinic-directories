@@ -1,5 +1,5 @@
-import Details from '../components/details'
-import detailApi from '../components/detailApi.json';
+import Details from '../Componentss/Details'
+import detailApi from "../Components/detailApi.json"
 import { Container, SimpleGrid} from "@chakra-ui/react";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
