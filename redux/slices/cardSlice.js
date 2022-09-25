@@ -1,22 +1,44 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { useState, useEffect } from "react";
 import axios from "axios";
-import detailsApi from '../Components/detailsApi'
+import {detailApi} from '../../components/detailApi.json'
 
-const hospitalData = detailsApi
+// const [details, setDetails] = useState([])
+//  useEffect(()=>{
+//    const fetchHospitalData = async () => {
+//         const {data: res} = await axios.get(detailsApi)
+//         setDetails(res);
+//     }
+//     fetchHospitalData();
+// }, [])
 
-export function fetchHospitalData(){
-    return(dispatch)=>{
-        return axios.get(hospitalData), then((response)=>{
-            dispatch(GET_DATA(response.data.id))
-        })
-    }
+// const cardSlice = createSlice({
+//     name: 'hospitals',
+//     initialState: []
+//  })
+//  export default cardSlice.reducer;
+
+const asynfirst = () =>{
+    const [data, setData] = useState(null);
+    const [error, setError] = useState("");
+    const [loaded, setLoaded] = useState(false);
+
+    useEffect(() =>{
+        const fetchHospitalData = async () =>{
+            try {
+                const response = await axios.get(detailApi);
+                const json = await response.json();
+
+                setData(json);
+            }catch(error){
+                setError(error);
+            }finally{
+                setLoaded(true)
+            }
+        }
+        fetchHospitalData();
+    },[])
+    return { data, error, loaded }
 }
 
-
-const cardSlice = createSlice({
-    name: 'hospitals',
-    initialState: []
-})
-
-
-export default cardSlice.reducer;
+export default asynfirst

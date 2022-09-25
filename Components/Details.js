@@ -6,7 +6,7 @@ import { FaEnvelope, FaPhoneAlt, FaMapPin} from "react-icons/fa"
 export default function detailsCard(props){
     return(
         <Container>
-            <Box maxW={"xl"} maxH={'100vh'} bgGradient='linear(to-r, #23a9ff, #48a7ba)' mt='6.2rem' borderRadius='3.12rem' boxShadow=' 0 0.63rem 1.3rem -0.3rem #848b90' display='flex' p='1.3rem'>
+            <Box maxW={"xl"} maxH={'100vh'} bgGradient='linear(to-r, #23a9ff, #5ab2eb)' mt='6.2rem' borderRadius='3.12rem' boxShadow=' 0 0.63rem 1.3rem -0.3rem #848b90' display='flex' p='1.3rem'>
                 <Image src={`${props.logo}`} alt='Hospital-image2' w='10rem' h='10rem' p='2.5rem' ml="-1.9rem" mt='-1.3rem'/>
 
                 <Box display='flex' flexDir='column'>
@@ -76,7 +76,7 @@ export default function detailsCard(props){
             </Box>
 
             <Center mt='2rem' mb='5rem'>     
-                <Button onClick={()=> {javascript:history.back()}} type="button" bgGradient='linear(to-r, #23a9ff, #48a7ba)' w="6.875rem" h="2.5rem" borderRadius='1.87rem' boxShadow=' 0 0.625rem 1.3rem -0.325rem #848b90'>
+                <Button onClick={()=> {javascript:history.back()}} type="button" bgGradient='linear(to-r, #23a9ff, #5ab2eb)' w="6.875rem" h="2.5rem" borderRadius='1.87rem' boxShadow=' 0 0.625rem 1.3rem -0.325rem #848b90'>
                     <ChevronLeftIcon color={'white'} fontSize={'2.5rem'}/>
                 </Button>
             </Center>

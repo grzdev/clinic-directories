@@ -11,7 +11,7 @@ export default function Cards(props){
 
     
     return(
-        <Box maxW='sm' h='8.75rem' bgGradient='linear(to-r, #23a9ff, #48a7ba)' marginTop='2.5rem' borderRadius='1.3rem' display='flex'  boxShadow=' 0 0.625rem 1.3rem -0.325rem #848b90' ml='3rem'>
+        <Box maxW='sm' h='8.75rem' bgGradient='linear(to-r, #23a9ff, #5ab2eb)' marginTop='2.5rem' borderRadius='1.3rem' display='flex'  boxShadow=' 0 0.625rem 1.3rem -0.325rem #848b90' ml='3rem'>
               <Image src={`${props.img}`}  alt="Hospital-Image" maxW='8rem' p="1.88rem"/>
 
               <Box display='flex' flexDirection='column'>
