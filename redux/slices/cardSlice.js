@@ -19,7 +19,7 @@ import detailApi from '../../Components/detailApi.json'
 //  export default cardSlice.reducer;
 
 const asynfirst = () =>{
-    const [data, setData] = useState(null);
+    const [data, setData] = useState();
     const [error, setError] = useState("");
     const [loaded, setLoaded] = useState(false);
 
