@@ -1,13 +1,24 @@
 import {Box, Container, Heading, Image, SimpleGrid, Input, Text} from '@chakra-ui/react'
 import Cards from '../Components/Cards'
 import cardApi from '../Components/cardApi.json'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from '@chakra-ui/react'
+import { useDispatch, useSelector } from 'react-redux'
+import { fetchHospitalData } from '../redux/slices/cardSlice'
 
 
 export default function Home() {
-  const [searchTerm , setSearchTerm] = useState("")
 
+  const [searchTerm , setSearchTerm] = useState("")
+  const dispatch = useDispatch()
+  // const {hospitalData} = useSelector((state)=> state.hospitals )
+
+  
+    useEffect(()=>{
+      dispatch(fetchHospitalData())
+    }, [])
+
+    // console.log(hospitalData)
     const hospitalCard = cardApi.cardData.filter((val)=>{
       if (searchTerm == ""){
         return val
@@ -22,6 +33,7 @@ export default function Home() {
         />
       )
     })
+  
 
 
   return (
